@@ -2,7 +2,7 @@ const socket = io('/')
 const videoGrid = document.getElementById('video-grid')
 const myPeer = new Peer(undefined, {
   secure: true,
-  host: 'https://webrtc-check.herokuapp.com/',
+  host: '/',
   port: 443,
 })
 const myVideo = document.createElement('video')
